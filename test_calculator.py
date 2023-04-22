@@ -32,3 +32,6 @@ class TestCalculator(unittest.TestCase):
         result = self.calc.div(10, 2)
         expected = 4
         self.assertEqual(result, expected)
+
+
+unittest.main(argv=[''], verbosity=2, exit=False)
